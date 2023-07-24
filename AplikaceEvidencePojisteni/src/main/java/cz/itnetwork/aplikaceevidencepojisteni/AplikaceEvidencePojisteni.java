@@ -49,7 +49,7 @@ public class AplikaceEvidencePojisteni {
 
     public static void main(String[] args) {
         AplikaceEvidencePojisteni aplikace = new AplikaceEvidencePojisteni();
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in, "Windows-1250");
 
         while (true) {
             System.out.println("-------------------------------------------------------------------------");
